@@ -2,83 +2,71 @@ VideoOptimizer – Automatic Video Compression & Audio Extraction Tool (FFmpeg-b
 
 <img width="1536" height="1024" alt="Portada_VideoOptimizer_v004" src="https://github.com/user-attachments/assets/35f00b2b-666f-43a5-9ac8-e8b59bb7f7a4" />
 
-Descripción corta
-Optimización automática de video para reducción de tamaño con preservación de calidad, extracción de audio, soporte multiidioma y sistema de actualización integrado.
+Short Description
 
-Descripción completa
-VideoOptimizer es una herramienta basada en FFmpeg orientada a la optimización de archivos de video mediante compresión eficiente, reduciendo el tamaño de los archivos sin comprometer significativamente la calidad visual.
+Automatic video compression tool with CPU/GPU (NVENC) support, optimized for reducing file size while preserving visual quality. Includes audio extraction, multi-language UI, and built-in auto-update system.
 
-Está pensada para artistas de VFX, técnicos y creadores que necesitan preparar material para distribución, revisión o almacenamiento dentro de tuberías donde la velocidad y consistencia son clave.
+Full Description
 
-El sistema abstrae la complejidad de la codificación (bitrate, CRF, presets, codecs), utilizando un enfoque automatizado que prioriza resultados predecibles y reproducibles.
+VideoOptimizer is a lightweight desktop tool built on FFmpeg that simplifies video compression through an automated workflow.
 
-Características técnicas
-Compresión automática basada en CRF
+It reduces file size efficiently while maintaining high visual quality, eliminating the need for manual configuration of codecs, bitrates, or encoding parameters.
 
-Presets optimizados para equilibrar entre calidad y tamaño
+Designed for VFX artists, technical users, and content creators, it integrates easily into production pipelines where speed, consistency, and reliability are essential.
 
-Soporte para códecs H.264 y H.265 (HEVC)
+The system abstracts encoding complexity (CRF, presets, codecs), delivering predictable and reproducible results with minimal user input.
 
-Uso de flags optimizados (ej: +faststart en MP4)
+Key Features
+Automatic video compression (CRF-based)
+CPU and GPU encoding support (NVENC)
+Optimized presets for quality/size balance
+Batch processing support
+Audio extraction (MP3 / WAV)
+Lightweight standalone executable (.exe)
+Multi-language interface (Spanish / English)
+Built-in auto-update system
+Technical Overview
+Compression based on CRF (Constant Rate Factor)
+Support for H.264 and H.265 (HEVC)
+Optimized flags (e.g. +faststart for MP4 streaming)
+Direct FFmpeg execution (CLI abstraction)
+Output optimized for distribution and playback
+Minimal configuration required for standard use
+Audio Extraction
+Direct extraction from video source
+MP3 (compressed) and WAV (lossless) support
+No unnecessary re-encoding of streams
+Suitable for editing, reference, or analysis workflows
+Languages
+Interface available in Spanish and English
+Language switching within the application
+Spanish set as default
+Suitable for international workflows
+Auto-Update System
+Automatic detection of new versions
+Download and replace executable
+No manual update process required
+Designed for continuous delivery environments
+Pipeline Applications
+Reducing file size for delivery and sharing
+Generating optimized previews
+Preparing assets for review
+Optimizing content for social media
+Extracting audio for editing or analysis
+Technical Notes
+Based on FFmpeg (CLI execution)
+Supports CPU and GPU encoding workflows
+Designed for automation over manual tuning
+Focused on speed, consistency, and usability
+Note
 
-Procesamiento mediante ejecución directa de FFmpeg
+This project is under active development.
+Support and contributions help drive further improvements, optimizations, and new production-oriented features.
 
-Salida optimizada para distribución y reproducción.
+Contact
 
-Extracción de audio
-Extracción directa desde fuente de vídeo
+Email: rodrigopaz.vfx@gmail.com
 
-Soporte para formatos MP3 (compresión) y WAV (sin pérdida)
+Instagram: https://www.instagram.com/rodrigo_npa/
 
-Sin reprocesamiento innecesario del stream
-
-Aplicable a flujos de trabajo de edición, referencia o análisis
-
-Idiomas
-Interfaz disponible en español e inglés
-
-Cambio de idioma desde la aplicación
-
-Español por defecto
-
-Adaptado a entornos de trabajo internacionales
-
-Sistema de actualización
-Detección automática de nuevas versiones
-
-Descarga y reemplazo del ejecutable
-
-Mantiene consistencia entre versiones sin manual de intervención
-
-Enfocado en distribución continua
-
-Aplicaciones en pipeline
-Reducción de peso para envío de material.
-
-Generación de vistas previas optimizadas
-
-Preparación de activos para revisión.
-
-Optimización de contenidos para redes
-
-Extracción de audio para edición o análisis.
-
-Consideraciones técnicas
-Basado en FFmpeg (ejecución CLI)
-
-Procesamiento basado en CPU
-
-No requiere manual de configuración para uso básico
-
-Diseñado para automatización más que ajuste fino
-
-NOTA
-Este proyecto se encuentra en desarrollo activo.
-Cualquier contribución o compra ayuda directamente a sostener su desarrollo, permitiendo continuar agregando mejoras, optimizaciones y nuevas funcionalidades orientadas a producción.
-
-CONTACTO
-
-rodrigopaz.vfx@gmail.com
-
-https://www.instagram.com/rodrigo_npa/
-
+Keywords: video compression, reduce video size, compress video, ffmpeg gui, nvenc encoding, gpu video encoding, batch video processing, h264 h265 encoder, audio extraction tool, video optimizer, compress video without losing quality
