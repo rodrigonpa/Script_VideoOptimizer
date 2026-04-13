@@ -65,7 +65,9 @@ This project is under active development.
 Support and contributions help drive further improvements, optimizations, and new production-oriented features.
 ________________________________________
 Contact
+
 Email: rodrigopaz.vfx@gmail.com
+
 Instagram: https://www.instagram.com/rodrigo_npa/
 ________________________________________
 Keywords: video compression, reduce video size, compress video, ffmpeg gui, nvenc encoding, gpu video encoding, batch video processing, h264 h265 encoder, audio extraction tool, video optimizer, compress video without losing quality
